@@ -1,0 +1,177 @@
+
+/* Footer Start */
+.main .footer {
+    position: relative;
+    background: #FFDA9B;
+    padding: 25px 0px;
+}
+
+.main .footer .logo-footer {
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+}
+
+.main .social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.main .footer .foot-menu-div {
+    margin-top: 20px;
+    font-size: 13px;
+    border-right: 1px solid;
+}
+
+.main .footer li {
+    list-style-type: none;
+}
+
+.main .footer a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+
+.main .footer h5 {
+    font-size: 15px;
+}
+
+.main .footer .down-border {
+    position: absolute;
+    margin-top: 25px;
+    background-color: #FF7B21;
+    height: 23px;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+}
+
+.main .footer .right-line {
+    border-right: 1px solid #000000;
+    height: 150px;
+}
+
+.foot-social-menu {
+    margin-top: 15%;
+    align-items: end;
+}
+
+.main .footer .foot-menu-div .contact-information {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main .footer .foot-menu-div .bank-address {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media (min-width:280px) and (max-width:319px) {
+    .main .footer .down-border {
+        height: 28px;
+        width: 100%;
+        font-size: 8px;
+        padding: 5px;
+    }
+
+    .main .footer .footer-list {
+        font-size: 7px;
+    }
+
+    .main .footer .foot-menu-div {
+        border: none;
+        font-size: 8px;
+        margin-left: 6%;
+    }
+    .foot-social-menu {
+        margin-top: 6%;
+        margin-left: 6%;
+    }
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .main .footer .logo-footer {
+        width: 85%;
+        height: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 4%;
+    }
+
+    .contact-Banner .text-holder h1 {
+        font-size: auto;
+    }
+
+    .contact-Banner .down-border {
+        max-width: 40%;
+        margin-left: 30%;
+    }
+
+    .main .footer .foot-menu-div {
+        border: none;
+        margin-left: 6%;
+    }
+
+    .foot-social-menu {
+        margin-top: 6%;
+        margin-left: 6%;
+    }
+
+    .main .footer .footer-list {
+        font-size: 8px;
+    }
+
+    .main .user .Scroll {
+        overflow: scroll;
+        height: 500px;
+    }
+
+    .main .footer .down-border {
+        height: 26px;
+        width: 100%;
+        font-size: 8px;
+        padding: 5px;
+    }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+    .main .logo-footer {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .contact-Banner .text-holder h1 {
+        font-size: 10px;
+    }
+
+    .contact-Banner .down-border {
+        max-width: 50%;
+        margin-left: 30%;
+    }
+
+    .main .user .orange-border {
+        width: 68%;
+    }
+
+    .main .video-class-section .text-holder {
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .main .footer .foot-menu-div {
+        font-size: 12px;
+    }
+
+    .main .footer .foot-menu-div .footer-list {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .main .footer .foot-menu-div {
+        border: none;
+    }
+}
+
+/* Footer End */

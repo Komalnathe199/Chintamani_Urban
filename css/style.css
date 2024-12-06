@@ -1,0 +1,1081 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Home-Page */
+.main .top-ban-sec .button-1 {
+    background-color: #FF7B21;
+    border: none;
+    width: fit-content;
+    height: 57px;
+    width: 203px;
+}
+
+.main .top-ban-sec .dropdown-toggle::after {
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.main .top-ban-sec .button-2 {
+    background-color: #FFB12D;
+    border: none;
+    width: fit-content;
+    height: 39px;
+    width: 194px;
+    color: black;
+}
+
+.main .border-class {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFB12D;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.main .acount-box .home-img {
+    transition: 0.4s;
+    position: relative;
+}
+
+.main .acount-box:hover .home-img {
+    transform: scale(0.9);
+}
+
+.main .account-status .title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.main .account-status .card-img-top {
+    border-radius: 0px;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.main .account-status .acount-btn {
+    background-color: rgb(255, 177, 45);
+    border: none;
+    color: rgb(28, 28, 28);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 35px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.main .account-status .bottom-left.content-1 {
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main .video-class-section .user-1-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.main .address {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: auto;
+    padding: 15px 15px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.main .content-address {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.main .user-img-2 {
+    width: 100%;
+    height: auto;
+}
+
+.main .user-img-3 {
+    width: 94%;
+    display: block;
+    height: 300px;
+}
+
+.main .user-img-8 {
+    width: 94%;
+    display: block;
+    height: 300px;
+}
+
+.main .main-class-photo {
+    width: 100%;
+    display: block;
+    transition: transform .4s;
+    height: 100%;
+}
+
+
+.main .home-page-video {
+    position: relative;
+}
+
+.main .video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main .home-video {
+    width: 100%;
+    height: auto;
+}
+
+.main .happy-custmor .user-logo-img {
+    margin: auto;
+}
+
+.custmor-number {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.main .video-class-section .text-holder {
+    background-color: #FFFAF6;
+    height: 100%;
+    padding: 13% 5%;
+}
+
+.main .money-send {
+    background-image: url('../assets/images/banner/home.png');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .money-send .content-2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.main .money-send .choose-to-us-title {
+    font-size: 35px;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+    padding: 5px 10px;
+}
+
+.main .money-send .why-choose-top {
+    margin-top: 10%;
+}
+
+.main .money-send .main-counter-class .d-flex .counter {
+    font-size: 30px;
+}
+
+.main .money-send .main-counter-class .d-flex .year-word {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.choose-to-us-subtitle {
+    font-size: 14px;
+    text-align: cenetr;
+}
+
+.black-border-money {
+    border-bottom: 3px solid #000000;
+    width: 350px;
+}
+
+.main .user .orange-border {
+    border-bottom: solid #FF7B21;
+    border-bottom-color: #FF7B21;
+    height: 5px;
+    width: 866px;
+    margin-left: 16%;
+}
+
+.main .user-name {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.main .user-name .main-admin {
+    font-size: 29px;
+}
+
+.main .user-name .main-admin-position {
+    font-size: 17px;
+}
+
+.main .user-name-2 {
+    margin-top: 5%;
+    text-align: center;
+    /* margin-left: 16%; */
+}
+
+.main .user-name-2 .main-admin-2 {
+    font-size: 24px;
+}
+
+.main .user-name-2 .main-admin-position-2 {
+    font-size: 17px;
+}
+
+.main .sub-admin h6 {
+    font-size: 17px;
+}
+
+.main .sub-admin p {
+    font-size: 13px;
+}
+
+main .video-class-section .about-social-icon .emailid-class {
+    font-size: 15px;
+}
+
+main .video-class-section .content-address {
+    font-size: 13px;
+}
+
+.main .happy-custmor .card {
+    margin-top: 15%;
+}
+
+.main element .style {
+    width: 218px;
+    height: 218px;
+    margin: auto;
+}
+
+.video-class-section .align-menu {
+    text-align: center;
+}
+
+.main .money-send .main-counter-class .sub-content-counter {
+    font-size: 15px;
+}
+
+.main .video-class-section .title-video-class {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main .video-class-section .sub-content-video-class {
+    font-size: 15px;
+}
+
+.main .About-bank .video-class {
+    width: 100%;
+    height: auto;
+}
+
+/* start user section style  */
+
+.main .user .main-class-photo .img-hov {
+    overflow: hidden;
+    width: 70%;
+    box-sizing: border-box;
+    height: auto;
+    margin-left: 15%;
+}
+
+.main .user .main-class-photo .img-hov .image {
+    width: 100%;
+    display: block;
+    transition: transform .4s;
+    height: auto;
+}
+
+.main .user .main-class-photo .img-hov:hover .image {
+    transform: scale(1.1);
+}
+.main .user .main-class-photo-2 .img-hov-2 {
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    /* margin-left: 15%; */
+}
+
+.main .user .main-class-photo-2 .img-hov-2 .image {
+    width: 89%;
+    display: block;
+    transition: transform .4s;
+    height: auto;
+}
+
+.main .user .main-class-photo-2 .img-hov-2:hover .image {
+    transform: scale(1.1);
+}
+
+/* end user section style  */
+
+@media (min-width:280px) and (max-width:320px) {
+    img.about-social-icon.me-3 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .main .email-about-class {
+        font-size: 10px;
+    }
+
+    span.email-about-class.me-md-5 {
+        font-size: 10px;
+    }
+
+    span.content-address.me-md-5 {
+        font-size: 5px;
+    }
+
+    span.contact-number {
+        font-size: 8px;
+    }
+}
+
+/* start account-status card images mobile view style  */
+@media (max-width:320px) {
+    .main .account-status .card-img-top {
+        height: 250px;
+    }
+}
+
+@media (min-width:321px) and (max-width:485px) {
+    .main .account-status .card-img-top {
+        height: 300px;
+    }
+}
+
+@media (min-width:486px) and (max-width:575px) {
+    .main .account-status .card-img-top {
+        height: 350px;
+    }
+
+}
+
+/* end account-status card images mobile view style  */
+
+@media (max-width:575px) {
+    .main .header-section .logo-div .logo {
+        width: 70%;
+        height: auto;
+    }
+
+    .main .content-address {
+        font-size: 10px;
+    }
+
+    .main .user-logo-img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .main .user-1-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .user .orange-border {
+        display: none;
+    }
+
+    .main .money-send .content-2 {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .main .money-send .content-2 {
+        font-size: 30px;
+    }
+
+    .black-border-money {
+        max-width: 75%;
+        margin-bottom: 0%;
+        margin: auto;
+    }
+
+    .main .top-ban-sec .button-1 {
+        font-size: 12px;
+        width: auto;
+        height: auto;
+        margin-left: 0%;
+    }
+
+    .main .top-ban-sec .button-2 {
+        width: auto;
+        font-size: 12px;
+        margin-left: 0%;
+    }
+
+    .main .money-send .choose-to-us-title {
+        height: auto;
+        margin-top: 0;
+        font-size: 16px;
+    }
+
+    .main .home-img {
+        margin-left: 0%;
+    }
+
+    .main .account-status .title {
+        text-align: center;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+    .main .account-status .bottom-left.content-1 {
+        font-size: 14px;
+    }
+
+    .main .account-status .acount-btn {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+
+    .main .about-social-icon {
+        width: 42px;
+        height: 42px;
+        margin-bottom: 4%;
+    }
+
+    .main .video-class-section .text-holder {
+        font-size: 12px;
+        padding: 5% 5%;
+    }
+
+
+    .main .video-class-section .text-holder h5 {
+        text-align: center;
+    }
+
+    .main .custmor-number {
+        font-size: 25px;
+    }
+
+    .main .border-class {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        font-size: 10px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 1rem;
+        height: 2rem;
+    }
+
+    .main .address {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .main .money-send {
+        height: 100%;
+        width: 100%;
+    }
+
+    .video-class-section .align-menu {
+        text-align: left;
+    }
+
+    .main .user-name .main-admin {
+        font-size: 14px;
+    }
+
+    .main .user-name .main-admin-position {
+        font-size: 13px;
+    }
+
+    .main .user-name-2 .main-admin-2 {
+        font-size: 14px;
+    }
+
+    .main .user-img-3 {
+        height: 180px;
+    }
+
+    .main .user-img-8 {
+        height: 180px;
+        margin-left: 0;
+    }
+
+    .main .user-name-2 .main-admin-position-2 {
+        font-size: 13px;
+    }
+
+    .main .sub-admin h6 {
+        font-size: 14px;
+    }
+
+    .main .sub-admin p {
+        font-size: 12px;
+    }
+
+    .main .money-send .main-counter-class .d-flex .year-word {
+        font-size: 20px;
+    }
+
+    .main .money-send .main-counter-class .d-flex .counter {
+        font-size: 22px;
+    }
+
+    .main .money-send .main-counter-class .sub-content-counter {
+        font-size: 12px;
+    }
+
+    .main .video-class-section .title-video-class {
+        font-size: 20px;
+    }
+
+    .main .video-class-section .sub-content-video-class {
+        font-size: 12px;
+    }
+
+    main .video-class-section .about-social-icon .emailid-class {
+        font-size: 11px;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:991px) {
+    .user-1-img {
+        width: 100%;
+        height: auto;
+    }
+
+    img.money-banner-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .user .orange-border {
+        width: 60%;
+    }
+
+    .main .money-send .content-2 {
+        text-align: center;
+    }
+
+    .black-border-money {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .main .about-social-icon {
+        width: 34px;
+        height: 34px;
+        font-size: 8px;
+    }
+
+    .main .money-send .choose-to-us-title {
+        font-size: 20px;
+    }
+
+    .main .top-ban-sec .button-1 {
+        height: 42px;
+        width: 100%;
+        font-size: 11px;
+    }
+
+    .main .top-ban-sec .button-2 {
+        height: 30px;
+        width: auto;
+        font-size: 11px;
+    }
+
+    .main .border-class {
+        font-size: 12px;
+    }
+
+    .main .happy-custmor .card {
+        border: none;
+    }
+
+    .main .happy-custmor .user-logo-img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .custmor-number {
+        font-size: 35px;
+    }
+
+    .main .account-status .title {
+        font-size: 16px;
+        margin-left: 0px;
+    }
+
+    .main .account-status .bottom-left.content-1 {
+        font-size: 14px;
+    }
+
+    .main .account-status .acount-btn {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+
+    .main .account-status .card-img-top {
+        height: 275px;
+    }
+
+    .main .money-send {
+        height: 100%;
+    }
+
+    .video-class-section .align-menu {
+        text-align: left;
+    }
+
+    .main .address {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .main .user-name .main-admin {
+        font-size: 18px;
+    }
+
+    .main .user-name .main-admin-position {
+        font-size: 15px;
+    }
+
+    .main .sub-admin h6 {
+        font-size: 15px;
+    }
+    .main .user-img-3 {
+        width: 94%;
+        display: block;
+        height: 173px;
+    }
+    .main .user-img-8 {
+        width: 94%;
+        display: block;
+        height: 173px;
+    }
+    .main .user-name-2 .main-admin-2 {
+        font-size: 14px;
+    }
+    .main .user-name-2 .main-admin-position-2 {
+        font-size: 13px;
+    }
+    .main .Scroll {
+        height: 117vh;
+    }
+}
+
+
+@media (min-width:993px) and (max-width:1200px) {
+    .main .account-status .bottom-left.content-1 {
+        bottom: 30px;
+        left: 20px;
+        font-size: 13px;
+    }
+
+    .main .account-status .title {
+        font-size: 15px;
+    }
+
+    .main .account-status .acount-btn {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+
+    .main .top-ban-sec .button-2 {
+        height: auto;
+        width: auto;
+    }
+
+    .main .account-status .card-img-top {
+        height: 300px;
+    }
+
+    .main .money-send {
+        height: 100%;
+    }
+
+    .main .money-send .content-2 {
+        font-size: 20px;
+    }
+
+    .main .money-send .choose-to-us-title {
+        font-size: 25px;
+    }
+
+    .main .money-send .main-counter-class .d-flex .counter {
+        font-size: 25px;
+    }
+
+    .main .money-send .main-counter-class .d-flex .year-word {
+        font-size: 23px;
+    }
+
+    .video-class-section .align-menu {
+        text-align: left;
+    }
+    .main .user-name-2 .main-admin-2 {
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width:1201px) and (max-width:1400px) {
+    .main .account-status .bottom-left.content-1 {
+        left: 15px;
+        font-size: 15px;
+    }
+
+    .main .account-status .card-img-top {
+        height: 315px;
+    }
+
+    .main .money-send .content-2 {
+        font-size: 27px;
+    }
+
+    .main .money-send .choose-to-us-title {
+        font-size: 30px;
+    }
+
+    .main .money-send .main-counter-class .d-flex .counter {
+        font-size: 27px;
+    }
+
+    .main .money-send .main-counter-class .d-flex .year-word {
+        font-size: 25px;
+    }
+}
+
+/* about page start */
+
+.main .box-class {
+    position: relative;
+    background-color: #FFF9F5;
+    padding: 10px 10px;
+}
+
+.main .About-bank .video-class {
+    width: 100%;
+    height: 665px;
+    transition: 0.4s;
+    display: block;
+}
+
+.main .About-bank .video-player:hover .video-class {
+    transform: scale(1.0);
+}
+
+.main .about-social-icon {
+    width: 58px;
+    height: 58px;
+}
+
+.main .About-bank .content-about-bank {
+    position: relative;
+    font-size: 15px;
+    padding: 70px 70px;
+}
+
+.main .About-bank .img-hov-about {
+    overflow: hidden;
+    width: 70%;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.main .About-bank .img-hov-about .img-laptop {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    width: 84%;
+    display: block;
+    transition: transform .4s;
+}
+
+.main .About-bank .img-hov-about:hover .img-laptop {
+    transform: scale(1.1);
+}
+
+/* .in{
+    animation: k 1s forwards;
+  }  
+  
+  @keyframes k
+  {
+  from {transform: rotate(0deg);}
+  to   {transform: rotate(30deg);}
+  } */
+
+.main .About-bank .about-last-line {
+    background-color: #2A2A2A;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    width: 90%;
+    margin: auto;
+}
+
+.main .Banner .down-border-about {
+    border-bottom: solid #F96D0E;
+    width: 227px;
+    height: 5px;
+    margin-left: 36%;
+}
+
+.main .Banner .banner-img .banner-title h2 {
+    color: #FFFFFF;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.main .Facilities .card {
+    height: auto;
+    width: 100%;
+    border-color: #FF7B21;
+}
+
+.main .Facilities .heading-class h2 {
+    font-size: 30px;
+}
+
+.main .Facilities .text-holder-content {
+    font-size: 15px;
+}
+
+.main .slider-image {
+    width: 60px;
+    height: 100px;
+}
+
+#about-slider .owl-prew,
+#about-slider .owl-prew {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #F96D0E;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+}
+
+#about-slider .owl-prew {
+    left: -60px;
+    top: -30px;
+}
+
+#about-slider .owl-prew {
+    right: -60px;
+    top: -30px;
+}
+
+.main .scroll-img {
+    width: 100%;
+    height: auto;
+}
+
+.main .user .Scroll {
+    overflow: scroll;
+    width: 100%;
+    height: 298vh;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.main .video-player {
+    position: relative;
+}
+
+.main .user ::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+}
+
+.scroll-footer {
+    background-color: #FF7B21;
+    height: 23px;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+}
+
+.main .user ::-webkit-scrollbar-track {
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.main .user ::-webkit-scrollbar-thumb {
+    background: #D1D1D1;
+    border-radius: 10px;
+}
+
+.about-slider-img {
+    margin: auto;
+
+}
+
+.main .title-about-bank {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sub-title-about-bank {
+    font-size: 15px;
+}
+
+@media(max-width:575px) {
+    .user-logo-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .user-1-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .user .orange-border {
+        width: 50%;
+    }
+
+    .About-bank .about-last-line {
+        font-size: 10px;
+    }
+
+    .main .Banner .down-border-about {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .main .user-img-4 {
+        width: 100%;
+        height: auto;
+        margin-top: 20%;
+    }
+
+    .main .Banner .banner-img .banner-title h2 {
+        font-size: 28px;
+    }
+
+    .main .Facilities .text-holder-content {
+        font-size: 13px;
+    }
+
+    .main .Facilities .heading-class h2 {
+        font-size: 20px;
+    }
+
+    .main .title-about-bank {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .main .sub-title-about-bank {
+        font-size: 13px;
+    }
+
+    .main .video-player {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .About-bank .video-class {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+    .main .user-img-4 {
+        width: 100%;
+        height: auto;
+    }
+
+    .About-bank .about-last-line {
+        font-size: 12px;
+    }
+
+    .main .Banner .down-border-about {
+        width: 100%;
+        margin-left: 0;
+    }
+    .main .user .Scroll {
+        width: 100%;
+        height: 116vh;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200) {
+    img.money-banner-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .Banner .down-border-about {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* About Page End */
+
+/* Popup Start */
+
+.main .modal-title {
+    font-weight: bold;
+    margin-left: 23%;
+}
+
+.main .close {
+    border: none;
+}
+
+.main .present-btn {
+    background-color: #FFB12D;
+    color: #000000;
+    border: none;
+    margin-right: 35%;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.main .col-form-label {
+    font-size: 12px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 12px;
+}
+
+/* Popup End */
+
+/* about slider */
+
+.owl-item > div {
+    cursor: pointer;
+    margin: 6% 8%;
+    transition: margin 0.4s ease;
+  }
+  .owl-item.center > div {
+    cursor: auto;
+    margin: 0;
+  }
+  .owl-item:not(.center) > div:hover {
+    opacity: .75;
+  }

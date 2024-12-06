@@ -1,0 +1,229 @@
+/* Step-Form  */
+.main .step-form #msform {
+    position: relative;
+    margin-top: 20px
+}
+
+.main .step-form #msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+
+.main .step-form #progressbar {
+    text-align: center;
+}
+
+.main .step-form #msform .form-control,
+.main .step-form #msform textarea {
+    padding: 8px 15px 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    background-color: #ECEFF1;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+.main .step-form #msform .form-control:focus,
+.main .step-form #msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: #FFCD7A;
+    outline-width: 0
+}
+
+.main .step-form #msform .action-button {
+    background-color: #FFCD7A;
+    font-weight: bold;
+    color: #000000;
+    border: 0 none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    height: auto;
+}
+
+.main .step-form #msform .action-button:hover,
+.main .step-form #msform .action-button:focus {
+    background-color: #FFCD7A;
+}
+
+.main .step-form #msform .action-button-previous {
+    font-weight: bold;
+    color: #000000;
+    border: 0 none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left
+}
+
+.main .step-form #msform .action-button-previous:hover,
+.main .step-form #msform .action-button-previous:focus {
+    background-color: #000000
+}
+
+.main .step-form .fs-title {
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.main .step-form .purple-text {
+    color: #000000;
+    font-weight: normal
+}
+
+.main .step-form .steps {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right
+}
+
+.main .step-form .fieldlabels {
+    color: gray;
+    text-align: left
+}
+
+.main .step-form #progressbar .active {
+    color: #000000;
+}
+
+.main .step-form #progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+.main .step-form #progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f007"
+}
+
+.main .step-form #progressbar #account:before {
+    font-family: FontAwesome;
+    content: "\f53c"
+}
+
+.main .step-form #progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f030"
+}
+
+.main .step-form #progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+
+.main .step-form #progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+
+.main .step-form #progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+.main .step-form #progressbar li.active:before,
+.main .step-form #progressbar li.active:after {
+    background-color: #FFCD7A;
+}
+
+.main .step-form .progress {
+    height: 20px
+}
+
+.main .step-form .progress-bar {
+    background-color: #FFCD7A;
+}
+
+.main .step-form .fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.main .step-form #msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+.main .heading-form {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+.main-form-class {
+    font-size: 12px;
+}
+
+.main .form-text-holder {
+    color: #FF2121;
+    font-size: 13px;
+}
+
+.main .Application-Form a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.form-check-input:checked {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.main .bottom-border {
+    border-bottom: 2px solid #00000029;
+}
+
+@media (min-width:280px) and (max-width:320px) {
+    b, strong {
+        font-size: 10px;
+    }
+    ul#progressbar {
+        padding-left: 0;
+    }
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    b, strong {
+        font-size: 12px;
+    }
+    ul#progressbar {
+        padding-left: 0;
+    }
+}
+

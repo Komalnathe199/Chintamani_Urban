@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Personal Loan */
+.main .loan-section .loan-get {
+    background-color: #00000029;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-bottom: 2%;
+}
+
+.main .form-header h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main .main-form .form-label {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.main .main-form .input-field-class {
+    font-size: 13px;
+}
+
+.main .main-form .last-line-form {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.main .loan-section .loan-complete {
+    background-color: #00000029;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin-bottom: 2%;
+}
+
+.main .loan-section .zero-payment {
+    background-color: #00000029;
+    padding: 10px 10px;
+    font-size: 15px;
+    height: 90%;
+}
+
+.main .loan-img {
+    height: 61px;
+    width: 61px;
+}
+
+.main .icon-loan {
+    height: 18px;
+    width: 18px;
+}
+
+.main .form-button {
+    background-color: #090705;
+    border: none;
+    width: 100px;
+    height: 32px;
+    font-size: 15px;
+    margin-top: 2%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000000;
+    background-color: #FFB12D38;
+    border-bottom: solid 3px #FFB12D;
+    font-size: 15px;
+    width: 120px;
+}
+
+.nav-pills .nav-link {
+    background-color: #FFB12D38;
+    color: #000000;
+    border-radius: 0;
+    font-size: 15px;
+    width: 120px;
+    height: 39px;
+}
+
+#arrow {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+    margin-top: 40px;
+}
+
+.main .list-class-1 ul li {
+    position: relative;
+    font-size: 15px;
+}
+
+.main .list-class-1 ul {
+    list-style: none;
+}
+
+.main .list-class-1 ul li:before {
+    content: '';
+    position: absolute;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 6px;
+    height: 6px;
+    top: calc(50% - 4px);
+    left: -20px;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.main .list-class-2 ul li {
+    font-size: 15px;
+    list-style-type: circle;
+}
+
+.main-form {
+    padding-top: 6%;
+}
+
+.main .loan-section .content-5 {
+    font-size: 12px;
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .main .loan-section .content-5 {
+        font-size: 13px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 11px;
+        width: 100px;
+    }
+}
+
+/* GoldLoan */
+
+.main .loan-section .loan-get-goldloan {
+    background-color: #00000029;
+    font-size: 15px;
+    height: 130px;
+    padding: 24px 10px;
+}
+
+.main .loan-section .loan-complete-goldloan {
+    background-color: #00000029;
+    font-size: 15px;
+    height: 130px;
+    padding: 24px 10px;
+}
+
+.main .loan-section .zero-payment-goldloan {
+    background-color: #00000029;
+    font-size: 15px;
+    padding: 5px 5px;
+    width: 200%;
+}
+
+
+.tab-content {
+    font-size: 15px;
+}
+
+/* EducationLoan */
+
+.main .loan-section .title-rules .loan-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* loan-rate */
+.main .loan-section .list-class-loan-rate {
+    font-size: 15px;
+}
+
+.main .page-link {
+    color: #000000;
+    border: none;
+    font-size: 15px;
+}
+
+.main ul.pagination {
+    float: right;
+}
+
+@media (max-width:575px) {
+    .main .loan-section .title-rules .loan-title {
+        margin-left: 29%;
+        font-size: 22px;
+    }
+
+    .main .form-button {
+        width: 77px;
+    }
+
+    .main .loan-section .list-class-loan-rate {
+        font-size: 13px;
+    }
+    .main .loan-section .loan-complete-goldloan {
+        height: auto;
+        padding: 24px 10px;
+    }
+    .main .loan-section .zero-payment-goldloan {
+        width: 100%;
+    } 
+
+     
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .main .loan-section .zero-payment-goldloan {
+        width: 200%;
+    }
+    .main .loan-section .loan-complete-goldloan {
+        height: 100%;
+    }
+    .main .loan-section .loan-get-goldloan {
+        height: 100%;
+    }
+}
+
+@media (min-width:992) and (max-width:1200px) {
+    .main .loan-section .zero-payment-goldloan {
+        width: 200%;
+    }
+    .main .loan-section .loan-complete-goldloan {
+        height: 100%;
+        padding: 24px 10px;
+    }
+    .main .loan-section .loan-get-goldloan {
+        height: 100%;
+    }
+}
+
+/* investment-1 */
+.main .dropdown .time-button {
+    border: none;
+    background-color: #F6E5C8;
+    color: #000000;
+    font-size: 13px;
+    margin-bottom: 30%;
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .Banner .banner-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .Banner .banner-img img {
+        max-width: 100%;
+        height: 150px;
+    }
+
+    .Banner .text-holder h1 {
+        font-size: 40px;
+    }
+
+    .main .enquiry-button {
+        margin-right: 8%;
+        width: 35%;
+    }
+
+    .investment-1 .title-rules {
+        margin-left: 30%;
+    }
+
+    .Banner .down-border {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* investment-2 */
+.first-list li {
+    font-size: 15px;
+}
+
+.main .title-loan {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15%;
+}
+
+.main .content-6 {
+    font-size: 13px;
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .investment-2 .title-rules {
+        margin-left: 30%;
+    }
+
+    .first-list li {
+        font-size: 13px;
+    }
+
+    .main .title-loan {
+        font-size: 18px;
+    }
+
+    .main .content-6 {
+        font-size: 8px;
+    }
+}
+
+/* investment-3  */
+
+.main .investment-3 .sub-banner {
+    position: relative;
+}
+
+.main .investment-3 .sub-banner .bottom-left {
+    position: absolute;
+    bottom: 12px;
+    left: 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.text-holder-investment-3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main .title-loan-invest-3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .investment-3 .title-rules {
+        margin-left: 30%;
+    }
+
+    .text-holder-investment-3 {
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+/* investment-4  */
+
+.main .investment-4 .sub-banner  {
+    position: relative;
+}
+
+.main .investment-4 .sub-banner .bottom-left-invest-4  {
+    position: absolute;
+    bottom: 12px;
+    left: 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .investment-4 .title-rules {
+        margin-left: 30%;
+    }
+}
+
+/* investment-5 */
+.rules ul li {
+    font-size: 13px;
+}
+
+.main .rules .content-5 {
+    font-size: 15px;
+}
+
+.main .rules .content-7 {
+    font-size: 12px;
+}
+
+.main .message {
+    text-decoration: none;
+    color: #FF7B21;
+}
+
+.main .enquiry-button {
+    background-color: #FFB12D;
+    border: none;
+    color: #1C1C1C;
+    font-size: 16px;
+    height: 48px;
+    font-weight: bold;
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .rules .title-rules {
+        margin-left: 30%;
+    }
+
+    .main .rules .content-7 {
+        font-size: 8px;
+    }
+
+    .main .rules .content-5 {
+        font-size: 13px;
+        text-align: center;
+    }
+
+}
+
+/* investment-6 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #FFB12D2B;
+
+}
+
+td,
+th {
+    border: 1px solid #707070;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    font-size: 13px;
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .investment-3 .title-rules {
+        margin-left: 30%;
+    }
+}
+
+/* PaymentFacility start */
+.main .Payment-Facility .card {
+    border-color: #FF7B21;
+    height: 400px;
+    margin: 8% 4%;
+}
+
+.main .Payment-Facility .card-body {
+    font-size: 13px;
+}
+
+.main .Payment-Facility .card h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main .Payment-Facility .lotty-animation {
+    margin-left: 4%;
+}
+
+.main .toolbar {
+    display: none;
+    place-items: center;
+    background-color: none;
+    margin: 0px 5px;
+    height: 35px;
+}
+
+.main .lotti-img-facility {
+    margin: auto;
+}
+
+.main .news-head-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@media (min-width:280px) and (max-width:320px) {
+    .main .Payment-Facility .card p {
+        font-size: 11px;
+    }
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .main .news-head-title {
+        margin-left: 35%;
+        font-size: 20px;
+    }
+
+    .main .Payment-Facility .card h5 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+    .main .news-head-title {
+        margin-left: 45%;
+    }
+
+    .main .Payment-Facility .card h5 {
+        font-size: 14px;
+    }
+}
+
+/* news */
+.main .title-news {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main .Banner .banner-img .title-class-news {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%, -50%);
+}
+
+.main .Banner .banner-img .title-class-news .banner-text {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+@media (min-width:280px) and (max-width:320px) {
+    .main .Banner .banner-img .title-class-news .banner-text {
+        font-size: 10px;
+        margin-left: 22%;
+    }
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .main .Banner .banner-img .title-class-news .banner-text {
+        font-size: 15px;
+        margin-left: 22%;
+    }
+
+    .main .news-head-title {
+        margin-left: 35%;
+    }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+    .main .Banner .banner-img .title-class-news .banner-text {
+        font-size: 24px;
+        margin-left: 6%;
+    }
+
+    .main .news-head-title {
+        margin-left: 45%;
+    }
+}
+
+@media (min-width:991px) and (max-width:1200px) {
+    .main .Banner .banner-img .title-class-news .banner-text {
+        font-size: 32px;
+    }
+}
+
+/* Price */
+@media (min-width:320px) and (max-width:575px) {
+    .main .price-title {
+        margin-left: 35%;
+    }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+    .main .price-title {
+        margin-left: 45%;
+    }
+}
+
+/* Contact Us Start */
+.Banner .banner-img {
+    position: relative;
+}
+
+.main .Banner .title-class {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%, -50%);
+}
+
+.main .Banner .title-contact {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.Banner .text-holder {
+    font-weight: bold;
+    font-size: 46px;
+    color: #000000;
+}
+
+.Banner .down-border {
+    border-bottom: solid #F96D0E;
+    width: 110px;
+    height: 2px;
+    margin-left: 43%;
+}
+
+.main .google-map .google-map-class {
+    height: 600px;
+    width: 100%;
+}
+
+.main .google-map .text-holder-contact {
+    font-size: 13px;
+}
+
+.main .google-map .map-title-contact {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (min-width:280px) and (max-width:320px) {
+    .main .Banner .title-contact {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .Banner .down-border {
+        margin-left: 11%;
+    }
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .main .google-map .google-map-class {
+        width: 100%;
+        height: auto;
+    }
+
+    .main .google-map .text-holder-contact {
+        font-size: 14px;
+    }
+
+    .main .google-map .text-holder-contact .about-social-icon {
+        height: 34px;
+        width: 34px;
+    }
+
+    .main .Banner .title-contact {
+        font-size: 30px;
+    }
+
+    .main .google-map .map-title-contact {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .Banner .down-border {
+        margin-left: 21%;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:991px) {
+    .main .header-section .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .main .google-map .text-holder-contact .about-social-icon {
+        height: 38px;
+        width: 38px;
+    }
+
+    .main .google-map .text-holder-contact {
+        font-size: 7px;
+    }
+
+    .main .content-address {
+        font-size: 6px;
+    }
+
+    .Banner .down-border {
+        margin-left: 37%;
+    }
+}
+
+@media (min-width:991px) and (max-width:1200px) {
+    .Banner .down-border {
+        margin-left: 40%;
+    }
+}
+
+.main .loan-section .loan-tab .loan-tab-set {
+    display: flex !important;
+}
+
+@media (max-width:575px){    
+    .main .loan-section .loan-tab .loan-tab-set {
+        display: block !important;
+    }
+    .main .loan-section .loan-tab .nav-tab-class{
+        margin-left: 5%;
+    }
+    .main .loan-section .loan-tab .nav-tab-class .nav-link{
+        margin: 0px 5px;
+    }
+    .nav-pills .nav-link {
+        font-size: 11px;
+        width: 29%;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 11px;
+        width: 30%;
+    }
+}
+
+@media (min-width:575px) and (max-width:992px) {    
+    .main .loan-section .loan-tab .loan-tab-set {
+        display: block !important;
+    }
+    .main .loan-section .loan-tab .nav-tab-class{
+        margin-left: 5%;
+    }
+    .main .loan-section .loan-tab .nav-tab-class .nav-link{
+        margin: 0px 5px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 11px;
+        width: 30%;
+        height: 50px;
+    }
+    .nav-pills .nav-link {
+        font-size: 11px;
+        width: 30%;
+        height: 50px;
+    }
+}
